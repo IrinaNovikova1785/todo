@@ -1,4 +1,3 @@
-import "./css/style.css"
 export default function TodoList(props) {
     return(
         <div className="todo">

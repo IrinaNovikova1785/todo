@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":["../scss/_todolist.scss"],"names":[],"mappings":"AAAA;EACE;;AACA;EACE;;AAEF;EACE;;;AAIF;EACE;EACA;EACA;;AACA;EACE;;AAEF;EACE;EACA;EACA","file":"style.css"}
+{"version":3,"sourceRoot":"","sources":["../scss/_todolist.scss","../scss/todoAdd.scss"],"names":[],"mappings":"AAAA;EACE;;AACA;EACE;;AAEF;EACE;;;AAIF;EACE;EACA;EACA;;AACA;EACE;;AAEF;EACE;EACA;EACA;;;ACpBN;EACI;EACA;EACA;EACA;EACA;EACA;EACA;EACA;EACA;;AACA;EACI;EACA;EACA;;AACA;EACI;;AAEJ;EACI;EACA;EACA;;AAGR;EACI;EACA;EACA;EACA;EACA;EACA","file":"style.css"}

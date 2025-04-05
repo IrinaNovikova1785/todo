@@ -1,6 +1,8 @@
-import TodoList from './TodoList.jsx';
-import initTodos from './todos';
+import TodoList from './components/todoList/TodoList.jsx';
+import initTodos from './components/todoList/todos';
 import {useState} from "react";
+import TodoAdd from "./components/todoAdd/todoAdd";
+import "../src/css/style.css"
 
 function App() {
     const [todos, setTodos] = useState(initTodos);
@@ -17,9 +19,13 @@ function App() {
         const newStateTodo = todoList.filter(item => item.keyIn !== key);
         setTodos(newStateTodo);
     }
+    const add = deed => {
+        setTodos([...todos, deed]);
+    }
   return (
     <div>
       <TodoList list={todos} done={setDone} del={del}/>
+        <TodoAdd add={add}/>
     </div>
   );
 }
