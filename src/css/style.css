@@ -1,0 +1,25 @@
+.btn {
+  font-size: 20px;
+}
+.btn__done {
+  background-color: green;
+}
+.btn__del {
+  background-color: red;
+}
+
+.todo__list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.todo__list p {
+  margin: 0;
+}
+.todo__list li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/*# sourceMappingURL=style.css.map */
