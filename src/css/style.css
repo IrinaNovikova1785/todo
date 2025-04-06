@@ -1,3 +1,13 @@
+.link {
+  padding: 10px 20px;
+  background-color: #1e96cd;
+  color: white;
+  font-size: 20px;
+  text-transform: uppercase;
+  text-decoration: none;
+  margin: 5px;
+}
+
 .btn {
   font-size: 20px;
 }
